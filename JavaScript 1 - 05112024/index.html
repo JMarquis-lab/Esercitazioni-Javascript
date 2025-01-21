@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercitazione Javascript 05-11-2024</title>
+</head>
+<body>
+    <script>
+
+        // Esercizio 1
+        console.log("--- INIZIO ESERCIZIO 1 ---");
+        let num1 = 10;
+        let num2 = 15;
+        console.log("Il valore della variabile num1 è "+ num1);
+        console.log("Il valore della variabile num2 è "+ num2);
+
+        let stringa = 'Questa è una stringa';
+
+        console.log("Il valore della variabile stringa è \"" + stringa + "\"");
+
+        stringa = "45";
+
+        console.log("Il valore della variabile stringa è \"" + stringa + "\"");
+
+        const PIGRECO = 3.14159265359;
+
+        console.log("Il valore di PIGRECO è: " + PIGRECO);
+
+        PIGREGO = 32;
+
+        console.log("Il valore di PIGRECO è: " + PIGRECO);
+        
+        //Esercizio 2
+        console.log("--- INIZIO ESERCIZIO 2 ---");
+        let n1= 4;
+        let n2= 7;
+        let n3= 10;
+        let n4= -9;
+        let n5= 7;
+
+        let somma = (n1+n2+n3+n4+n5);
+
+        let media = somma/5;
+
+        console.log("La somma tra i numeri equivale a " + somma + " e la media equivale a " + media);
+
+        //Esercizio 3
+        console.log("--- INIZIO ESERCIZIO 3 ---");
+        let annoCorrente = 2024;
+        let annoDiNascita = parseInt(prompt("Inserisci il tuo anno di nascita"));
+
+        let eta = annoCorrente-annoDiNascita;
+        let to100 = 100-eta;
+
+        console.log("Hai " + eta + " anni e ti mancano " + to100 + " per compierne 100");
+
+        //Esercizio 4
+        console.log("--- INIZIO ESERCIZIO 4 ---");
+
+        let numero1 = parseInt(prompt("Inserisci il primo numero"));
+        let numero2 = parseInt(prompt("Inserisci il secondo numero"));
+
+        let som = numero1+numero2;
+        let sot = numero1-numero2;
+        let mol = numero1*numero2;
+        let div = numero1/numero2;
+        let pot = Math.pow(numero1,numero2);
+
+        console.log(`Con i numeri da te scelti, i risultati delle varie operazioni sono: somma (${som}), sottrazione (${sot}), moltiplicazione (${mol}), divisione (${div}), potenza (${pot})`);
+
+
+    </script>
+</body>
+</html>

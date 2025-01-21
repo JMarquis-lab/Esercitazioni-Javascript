@@ -1,0 +1,32 @@
+:root{
+    --primary : #124E78;
+    --secondary : #B5F44A;
+    --sfondo : #B9D6F2;
+}
+
+.navCustom{
+    color: var(--primary);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btnCustom{
+    color: var(--sfondo);
+    background-color: var(--primary);
+    border: 1px solid black;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 5px;
+}
+
+.btnCustom:hover{
+    color: var(--primary);
+    background-color: var(--sfondo);
+    border: 1px solid black;
+}
+
+.cardCustom{
+    background-color: var(--sfondo);
+}

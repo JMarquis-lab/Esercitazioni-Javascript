@@ -1,0 +1,44 @@
+
+:root {
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --background: #f8f9fa;
+    --text-color: #212529;
+    --card-bg: #ffffff;
+    --card-border: #dee2e6;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.cardCustom {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 0.5rem;
+}
+
+.cardCustom h5 {
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.cardCustom p {
+    color: var(--text-color);
+}
+
+footer {
+    font-size: 0.875rem;
+    margin-top: auto;
+}
